@@ -5,11 +5,11 @@ class EnvelopeCli < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/KayleeBeyene/EnvelopeCLI/releases/download/v0.1.0/envelope-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "e39a507eb57d0afb739e7a3d4eca6b3ef7f2013b5ae562848476ac1770078793"
+      sha256 "298ab9bbc582870809f18f07e5253b956e3fe683cd32351712f0162436d11433"
     end
     if Hardware::CPU.intel?
       url "https://github.com/KayleeBeyene/EnvelopeCLI/releases/download/v0.1.0/envelope-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "224c1ff2a16142e92416ab41b26dec1f281bea8e48489be6ba762e466182a77b"
+      sha256 "bb5997205ef3d1b95024aa2a7fc88852b3a19aee429af563c6e98a7eed8d9dac"
     end
   end
   if OS.linux?
