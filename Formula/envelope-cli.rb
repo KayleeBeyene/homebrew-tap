@@ -1,21 +1,21 @@
 class EnvelopeCli < Formula
   desc "Terminal-based zero-based budgeting application"
   homepage "https://github.com/KayleeBeyene/EnvelopeCLI"
-  version "0.2.5"
+  version "0.2.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/KayleeBeyene/EnvelopeCLI/releases/download/v0.2.5/envelope-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "a8ff93a8a4072832b1d2f345dabce64e7b61129cef0d98aa6d234fe3c663d7dd"
+      url "https://github.com/KayleeBeyene/EnvelopeCLI/releases/download/v0.2.6/envelope-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "ed308c3a572db2d52a376a3c32fb1f805722f23d62dbad94479925c0cad17cd5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/KayleeBeyene/EnvelopeCLI/releases/download/v0.2.5/envelope-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "bceb5d21c183f16578b6a0063809b839f5f0e8b28bb3130fc5faa3f93d091744"
+      url "https://github.com/KayleeBeyene/EnvelopeCLI/releases/download/v0.2.6/envelope-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "7552a60ed45b1e43f782518784bd4100ffa3ce5f1290465eb2afab1183cd7bf4"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/KayleeBeyene/EnvelopeCLI/releases/download/v0.2.5/envelope-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "3a834e30b1a8625faf5a6eb297990a518ce281d48ae96e905e179b6f38be4269"
+      url "https://github.com/KayleeBeyene/EnvelopeCLI/releases/download/v0.2.6/envelope-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "505c9f945cff19314ff60a2c4a5770faa1b7737cf7c28a4d418be0283fb4d03a"
     end
   end
   license "MIT"
